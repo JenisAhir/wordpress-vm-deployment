@@ -23,6 +23,8 @@ Created an Ubuntu Server virtual machine in VMware Workstation and configured it
 
 Installed Ubuntu Server and verified that the virtual machine booted successfully.
 
+![Ubuntu Server Installation](screenshots/2.png)
+
 3. Apache Installation
 
 Installed Apache to provide the web server for the WordPress site.
@@ -46,10 +48,6 @@ Initially, the Apache default page appeared instead of the WordPress setup page.
 8. Verification
 
 Completed the WordPress installation, accessed the dashboard, and published a technical blog post to verify that the website was working.
-
-Screenshots
-
-Screenshots documenting the virtual machine setup, Ubuntu Server, software installation, WordPress dashboard, and published blog post are included in the repository.
 
 Skills Demonstrated:
 -Linux server administration
