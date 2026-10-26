@@ -65,7 +65,7 @@ Initially, the Apache default page appeared instead of the WordPress setup page.
 
 Completed the WordPress installation, accessed the dashboard, and published a technical blog post to verify that the website was working.
 
-![Ubuntu Server Installation](screenshots/WordPress Dashboard.png)
+![Ubuntu Server Installation](screenshots/WordPressDashboard.png) 
 
 Skills Demonstrated:
 -Linux server administration
