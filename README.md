@@ -85,7 +85,3 @@ Successfully deployed a working WordPress website on an Ubuntu Server virtual ma
 Notes
 
 This project runs in a local lab environment. The website is not publicly accessible over the internet unless additional hosting and networking configuration is implemented.
-
-Related Blog Post
-Read my technical blog post about this project:
-[Deploying WordPress on Ubuntu Server Using VMware Workstation](http://192.168.28.181/hello-world/)
