@@ -1,3 +1,9 @@
+Live Portfolio: https://jenisitportfolio.wordpress.com/
+
+Project Documentation: This repository contains the technical documentation, implementation steps, screenshots, and troubleshooting notes for deploying WordPress on Ubuntu Server using VMware Workstation.
+
+
+
 WordPress Deployment on Ubuntu Server Using VMware Workstation
 
 Project Overview
