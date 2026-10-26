@@ -19,6 +19,8 @@ Implementation Steps:
 
 Created an Ubuntu Server virtual machine in VMware Workstation and configured its virtual hardware and networking.
 
+![Ubuntu Server Installation](screenshots/Vm-Settings.png)
+
 2. Ubuntu Server Installation
 
 Installed Ubuntu Server and verified that the virtual machine booted successfully.
