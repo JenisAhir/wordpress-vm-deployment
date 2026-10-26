@@ -67,6 +67,8 @@ Completed the WordPress installation, accessed the dashboard, and published a te
 
 ![Ubuntu Server Installation](screenshots/WordPressDashboard.png) 
 
+![Ubuntu Server Installation](screenshots/Blog-Post.png) 
+
 Skills Demonstrated:
 -Linux server administration
 -Virtual machine deployment and configuration
