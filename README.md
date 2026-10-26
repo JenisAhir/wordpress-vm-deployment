@@ -31,25 +31,41 @@ Installed Ubuntu Server and verified that the virtual machine booted successfull
 
 Installed Apache to provide the web server for the WordPress site.
 
+![Ubuntu Server Installation](screenshots/Apache2-install.png)
+
 4. PHP Installation
 
 Installed PHP and the required components to support WordPress.
+
+![Ubuntu Server Installation](screenshots/PHP-install.png)
+
+![Ubuntu Server Installation](screenshots/PHP-version.png)
 
 5. MariaDB Installation
 
 Installed MariaDB to provide the database service required by WordPress.
 
+![Ubuntu Server Installation](screenshots/Mariadb-Install.png)
+
 6. WordPress Setup
 
 Configured WordPress and accessed the WordPress installation page through a web browser.
+
+![Ubuntu Server Installation](screenshots/Wordpress-Download.png)
+
+![Ubuntu Server Installation](screenshots/Wordpress-files.png)
 
 7. Troubleshooting
 
 Initially, the Apache default page appeared instead of the WordPress setup page. I investigated the issue and renamed the default index.html file so WordPress could load as the website's main page.
 
+![Ubuntu Server Installation](screenshots/Troubleshooting.png)
+
 8. Verification
 
 Completed the WordPress installation, accessed the dashboard, and published a technical blog post to verify that the website was working.
+
+![Ubuntu Server Installation](screenshots/WordPress Dashboard.png)
 
 Skills Demonstrated:
 -Linux server administration
