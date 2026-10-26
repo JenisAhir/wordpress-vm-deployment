@@ -1,93 +1,96 @@
-Live Portfolio at: https://jenisitportfolio.wordpress.com/
+# WordPress Deployment on Ubuntu Server Using VMware Workstation
 
-Project Documentation: This repository contains the technical documentation, implementation steps, screenshots, and troubleshooting notes for deploying WordPress on Ubuntu Server using VMware Workstation.
+**Live Portfolio:** [Visit My IT Portfolio](https://jenisitportfolio.wordpress.com/)
 
+**Project Documentation:** This repository documents the deployment of WordPress on an Ubuntu Server virtual machine using VMware Workstation. It includes implementation steps, screenshots, troubleshooting, and verification.
 
+## Project Overview
 
-WordPress Deployment on Ubuntu Server Using VMware Workstation
+This project demonstrates the deployment of WordPress in a virtualized Linux server environment. It covers virtual machine configuration, Ubuntu Server installation, web server setup, PHP installation, database services, WordPress configuration, and troubleshooting.
 
-Project Overview
+The project was completed as a hands-on IT home lab to strengthen practical skills in Linux server administration and web service deployment.
 
-This project documents the deployment of WordPress on an Ubuntu Server virtual machine using VMware Workstation. It demonstrates practical experience with Linux server administration, web server configuration, database setup, PHP installation, and WordPress deployment.
+## Lab Environment
 
-Lab Environment:
--Host OS: Windows 11
--Virtualization: VMware Workstation
--Server OS: Ubuntu Server
--Web Server: Apache
--Database: MariaDB
--Application Requirements: PHP
--CMS: WordPress
+- **Host Operating System:** Windows 11
+- **Virtualization Platform:** VMware Workstation
+- **Server Operating System:** Ubuntu Server
+- **Web Server:** Apache
+- **Database Server:** MariaDB
+- **Application Runtime:** PHP
+- **Content Management System:** WordPress
 
-Implementation Steps:
+## Implementation Steps
 
-1. Virtual Machine Setup
+### 1. Virtual Machine Setup
 
 Created an Ubuntu Server virtual machine in VMware Workstation and configured its virtual hardware and networking.
 
-![Ubuntu Server Installation](screenshots/Vm-Settings.png)
+![VMware virtual machine settings](screenshots/Vm-Settings.png)
 
-2. Ubuntu Server Installation
+### 2. Ubuntu Server Installation
 
 Installed Ubuntu Server and verified that the virtual machine booted successfully.
 
-![Ubuntu Server Installation](screenshots/2.png)
+![Ubuntu Server installation](screenshots/2.png)
 
-3. Apache Installation
+### 3. Apache Web Server Installation
 
-Installed Apache to provide the web server for the WordPress site.
+Installed Apache to provide the web server required to host WordPress.
 
-![Ubuntu Server Installation](screenshots/Apache2-install.png)
+![Apache installation](screenshots/Apache2-install.png)
 
-4. PHP Installation
+### 4. PHP Installation and Verification
 
-Installed PHP and the required components to support WordPress.
+Installed PHP and the required components to support WordPress. Verified the PHP installation.
 
-![Ubuntu Server Installation](screenshots/PHP-install.png)
+![PHP installation](screenshots/PHP-install.png)
 
-![Ubuntu Server Installation](screenshots/PHP-version.png)
+![PHP version verification](screenshots/PHP-version.png)
 
-5. MariaDB Installation
+### 5. MariaDB Installation
 
 Installed MariaDB to provide the database service required by WordPress.
 
-![Ubuntu Server Installation](screenshots/Mariadb-Install.png)
+![MariaDB installation](screenshots/Mariadb-Install.png)
 
-6. WordPress Setup
+### 6. WordPress Setup
 
-Configured WordPress and accessed the WordPress installation page through a web browser.
+Downloaded and configured the WordPress application files and accessed the WordPress installation page through a web browser.
 
-![Ubuntu Server Installation](screenshots/Wordpress-Download.png)
+![WordPress download](screenshots/Wordpress-Download.png)
 
-![Ubuntu Server Installation](screenshots/Wordpress-files.png)
+![WordPress application files](screenshots/Wordpress-files.png)
 
-7. Troubleshooting
+### 7. Troubleshooting
 
-Initially, the Apache default page appeared instead of the WordPress setup page. I investigated the issue and renamed the default index.html file so WordPress could load as the website's main page.
+Initially, the Apache default page appeared instead of the WordPress setup page. I investigated the issue and renamed the default `index.html` file so WordPress could load as the website's main page.
 
-![Ubuntu Server Installation](screenshots/Troubleshooting.png)
+![Troubleshooting the Apache default page](screenshots/Troubleshooting.png)
 
-8. Verification
+### 8. Verification
 
-Completed the WordPress installation, accessed the dashboard, and published a technical blog post to verify that the website was working.
+Completed the WordPress installation, accessed the WordPress dashboard, and published a technical blog post to verify that the website was functioning.
 
-![Ubuntu Server Installation](screenshots/WordPressDashboard.png) 
+![WordPress dashboard](screenshots/WordPressDashboard.png)
 
-![Ubuntu Server Installation](screenshots/Blog-Post.png) 
+![Published WordPress blog post](screenshots/Blog-Post.png)
 
-Skills Demonstrated:
--Linux server administration
--Virtual machine deployment and configuration
--Apache web server installation
--PHP installation and verification
--MariaDB database setup
--WordPress deployment
--Troubleshooting and technical documentation
+## Skills Demonstrated
 
-Outcome
+- Linux server administration
+- Virtual machine deployment and configuration
+- Apache web server installation
+- PHP installation and verification
+- MariaDB database setup
+- WordPress deployment and configuration
+- Web application troubleshooting
+- Technical documentation and screenshot evidence
 
-Successfully deployed a working WordPress website on an Ubuntu Server virtual machine and documented the implementation process.
+## Project Outcome
 
-Notes
+Successfully deployed a working WordPress website on an Ubuntu Server virtual machine and documented the implementation process, including configuration steps, troubleshooting, and verification.
 
-This project runs in a local lab environment. The website is not publicly accessible over the internet unless additional hosting and networking configuration is implemented.
+## Notes
+
+This deployment runs in a local virtual lab environment. Access from outside the local environment would require additional hosting and networking configuration. The live portfolio linked above is hosted separately on WordPress.com.
